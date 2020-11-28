@@ -144,9 +144,10 @@ footer-link-col: "#404040"
 #  opt-out: true
 
 # --- Comments --- #
-
+commentbox:
+ id: 5651773217832960-proj
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-disqus: "nhatdang1411-github-io-6"
+#disqus: "nhatdang1411-github-io-6"
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
