@@ -13,10 +13,7 @@ author: Đặng Minh Nhật
 
 # --- List of links in the navigation bar --- #
 
-navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://vinmec.com"
+ 
     
 
 
