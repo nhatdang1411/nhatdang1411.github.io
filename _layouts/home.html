@@ -46,7 +46,7 @@ layout: page
     </a>
 
     <p class="post-meta">
-      {% assign date_format = site.date_format | default: "%m %-d, %Y" %}
+      {% assign date_format = site.date_format | default: "%-d/%m/%Y" %}
       {{ post.date | date: date_format }}
     </p>
 
