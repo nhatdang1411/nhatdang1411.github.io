@@ -1,5 +1,5 @@
 ---
-layout: search
+layout: base
 ---
 <form action="/search.html" method="get">
   <label for="search-box">Search</label>
