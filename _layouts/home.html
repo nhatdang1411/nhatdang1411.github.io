@@ -5,6 +5,14 @@ layout: page
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}
+<div class="blurb">
+	<h1>Tra cứu bệnh</h1>
+	<p>Tra cứu theo triệu chứng </p>
+	<form action="/search.html" method="get">
+		<label for="search_box">Search</label>
+		<input type="text" id="search_box" name="query">
+		<input type="submit" value="search">
+	</form>
 
 <div class="posts-list">
   {% for post in posts %}
@@ -46,7 +54,7 @@ layout: page
 
     <p class="post-meta">
       {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-      Posted on {{ post.date | date: date_format }}
+      {{ post.date | date: date_format }}
     </p>
 
     {% if thumbnail != "" %}
