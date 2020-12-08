@@ -4,11 +4,8 @@ layout: page
 
 {{ content }}
 
-<form action="/search.html" method="get">
-  <label for="search-box">Search</label>
-  <input type="text" id="search-box" name="query">
-  <input type="submit" value="search">
-</form>
+<script async src="https://cse.google.com/cse.js?cx=d278a1434085a9cfc"></script>
+<div class="gcse-search"></div>
 {% assign posts = paginator.posts | default: site.posts %}
 <div class="posts-list">
   {% for post in posts %}
