@@ -13,8 +13,7 @@ author: Đặng Minh Nhật
 
 # --- List of links in the navigation bar --- #
 
-navbar-links:
-  About Me: "Search"
+
     
 
 
@@ -62,7 +61,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: Website tra cứu bệnh 
+
 
 # --- General options --- #
 
@@ -75,7 +74,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "Các bệnh thường gặp"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
